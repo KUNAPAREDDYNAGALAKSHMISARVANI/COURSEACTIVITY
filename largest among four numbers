@@ -28,7 +28,7 @@ scanf("%d",&n4);
         }
      }
    else
-     {
+    {
       if(n2>n3)
         {
           if(n2>n4)
