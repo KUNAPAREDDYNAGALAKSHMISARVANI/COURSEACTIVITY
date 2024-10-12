@@ -4,7 +4,7 @@ void main()
   int num,remainder,original,reversed;
   reversed=0;
   printf("Enter an number:");
-  scanf("%d",&num);
+  scanf("%d",&num); 
   original=num;
   while(num!=0)
   {
