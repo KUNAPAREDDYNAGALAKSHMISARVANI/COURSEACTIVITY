@@ -1,0 +1,31 @@
+#include<stdio.h>
+void main() {
+int a,b,c;
+float d,root1,root2,k,x;
+printf("Enter highest degree value");
+scanf("%d",&a);
+printf("Enter b value");
+scanf("%d",&b);
+printf("Enter constant value");
+scanf("%d",&c);
+d=b*b-4*a*c;
+root1=((-b)+sqrt(d))/2*a;
+root2=((-b)-sqrt(d))/2*a;
+k=(float)-b/2*a;
+  if(d>0)
+     {
+         printf("Roots are REAL and DISTINCT\n");
+         printf("Roots are %f and %f",root1,root2);
+     }
+  else if(d==0)
+     {
+         printf("Roots are REAL and EQUAL\n");
+         printf("Roots are %f and %f",k,k);
+     }
+  else
+     {
+         printf("Roots are IMAGINARY\n");
+         x=sqrt(-d)/2*a;
+         printf("Roots are %f+%fi and %f-%fi",k,x,k,x);
+     }
+}
