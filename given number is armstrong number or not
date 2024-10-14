@@ -2,7 +2,7 @@
 #include<stdio.h>
 void main() {
     int num,original,remainder,result = 0;
-    printf("Enter a number:");
+    printf("Enter a 3 digit number:");
     scanf("%d",&num);
     original=num;
     while (original!= 0) {
